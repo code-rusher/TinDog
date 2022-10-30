@@ -1,0 +1,209 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Title Section */
+
+#title h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fuild {
+  padding: 2% 5% 10%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: montserrat;
+  font-weight: 200;
+}
+/* List gets a good color when hover */
+.nav-link:hover {
+  color: azure;
+  transform: scale(1.1);
+}
+
+/* Download Buttons CSS */
+
+.download-btn {
+  margin: 5% 4% 5% 0;
+}
+.download-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  width: 250px;
+  position: absolute;
+  right: 20%;
+}
+
+/* ------------------------------COMBINE SECTIONS --------------------------------- */
+/* Combine #IDs for Text-algin */
+.feature-box,
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer {
+  text-align: center;
+}
+
+/* Combine #IDs for background-color: #fff; */
+
+#features,
+#footer {
+  background-color: #fff;
+}
+
+/* ------ Combine #IDs for background-color: #ff4c68; */
+
+#title,
+#cta {
+  background-color: #ff4c68;
+}
+
+/* Combine #IDs & Class for TEXT -  color: #fff; */
+
+#title,
+#testimonials,
+#cta h3 {
+  color: #fff;
+}
+
+.carousel-item, #features, #cta, #footer {
+  padding: 7% 15%;
+}
+
+/* ------------------------------END COMBINE SECTIONS --------------------------------- */
+
+/* Feature Section styles */
+#features {
+
+  position: relative;
+  z-index: 1;
+}
+#features h3 {
+  font-weight: 700;
+  font-size: 1.1 rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+.icons_3 {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons_3:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-images {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#press > img {
+  width: 10%;
+  margin: 0 20px 30px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+#pricing h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing h3 {
+  font-weight: 700;
+  font-size: 1.1 rem;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Section */
+
+#cta h3 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+#cta > button {
+  margin: 0 10px;
+}
+#cta > button:hover {
+  transform: scale(1.2);
+}
+#footer i {
+  margin-bottom: 2rem;
+  padding: 7px 15px;
+}
+#footer > p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1030px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 200px;
+  }
+  #cta {
+    padding: 5% 5%;
+  }
+  #cta h3 {
+    font-size: 2rem;
+  }
+}
